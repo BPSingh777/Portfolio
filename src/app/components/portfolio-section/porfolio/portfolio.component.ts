@@ -20,8 +20,7 @@ export class PortfolioComponent {
 
     const SimplyChessCard: CardData = {
       title: "Simply Chess",
-      description: "Plataforma multijugador de ajedrez en tiempo real que ofrece partidas privadas para competir " +
-        "de manera segura, junto con una cola de búsqueda de partidas para una experiencia fluida y sin interrupciones.",
+     description: "Real-time multiplayer chess platform offering private matches to compete securely, along with a matchmaking queue for a smooth and uninterrupted experience.",
       sourceCodeLink: "https://github.com/shackGerc/Simply-Chess",
       createdWith: ["Spring Boot", "Angular", "Bootstrap", "SockJS", "Stomp", "WebSocket", "PostgreSQL"],
       imageSrc: "assets/projects/SimplyChess.webp"
@@ -29,10 +28,7 @@ export class PortfolioComponent {
 
     const InventoryApiCard: CardData = {
       title: "Inventory API",
-      description: "En el marco del Trabajo Práctico Integrador (TPI) de la Tecnicatura Universitaria en Programación " +
-        "de la UTN-FRC en 2023, colaboramos en la elaboración de una aplicación para la administración de una ferretería " +
-        "basada en microservicios. Nuestro grupo se encargo del diseño y desarrollo del módulo de inventario. " +
-        "Este es el resultado de nuestro trabajo.",
+    description: "As part of the Integrative Practical Work (TPI) for the University Programming Technician degree at UTN-FRC in 2023, we collaborated on developing an application for managing a hardware store based on microservices. Our group was responsible for designing and developing the inventory module. This is the result of our work.",
       sourceCodeLink: "https://github.com/shackGerc/Inventory-API",
       createdWith: ["Spring Boot", "PostgreSQL"],
       imageSrc: "assets/projects/inventory.webp"
@@ -40,14 +36,7 @@ export class PortfolioComponent {
 
     const RallyRoundCard: CardData = {
       title: "RallyRound",
-      description: "RallyRound es una aplicación desarrollada en el marco del Trabajo Práctico Integrador Final de la " +
-        "Tecnicatura Universitaria en Programación de la UTN-FRC en 2024. Esta plataforma resuelve la dificultad de " +
-        "organizar y reunir participantes para eventos sociales. Con RallyRound, los usuarios pueden crear, gestionar " +
-        "y unirse a eventos, aprovechando funcionalidades como la búsqueda eficiente de participantes, gestión de pagos" +
-        " integrada, y comunicación en tiempo real a través de chats. Además, la aplicación cuenta con actualización" +
-        " automática del estado de los eventos y notificaciones instantáneas, ofreciendo herramientas avanzadas " +
-        "para la administración de actividades y reportes. RallyRound garantiza una experiencia fluida y completa" +
-        " para la organización de cualquier tipo de evento social.",
+    description: "RallyRound is an application developed as part of the Final Integrative Practical Work of the University Programming Technician degree at UTN-FRC in 2024. This platform solves the difficulty of organizing and gathering participants for social events. With RallyRound, users can create, manage, and join events, leveraging features like efficient participant search, integrated payment management, and real-time chat communication. Additionally, the app offers automatic event status updates and instant notifications, providing advanced tools for activity management and reporting. RallyRound guarantees a smooth and comprehensive experience for organizing any type of social event.",
       sourceCodeLink: "https://github.com/FabioGabrielSager/RallyRound/tree/main",
       createdWith: [
         "Spring Boot", "Spring Security", "Spring Data JPA", "JWT", "WebSockets",

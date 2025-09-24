@@ -2,43 +2,43 @@
   <form [formGroup]="form" (ngSubmit)="onSubmit()" class="h-100">
     <div class="mb-4">
       <input type="email" class="form-control bg-transparent border-primary text-light"
-             id="email-input" placeholder="Correo" aria-describedby="emailHelp"
+             id="email-input" placeholder="Email" aria-describedby="emailHelp"
              formControlName="email"
              [class.is-invalid]="form.controls['email'].invalid
              && (form.controls['email'].touched || form.controls['email'].dirty)">
 
       <div class="invalid-feedback" *ngIf="form.controls['email'].invalid
              && (form.controls['email'].touched || form.controls['email'].dirty)">
-        <span *ngIf="form.controls['email'].hasError('required')">Este campo es requerido.</span>
-        <span *ngIf="form.controls['email'].hasError('email')">Debe ingresar una dirección de email válida.</span>
+        <span *ngIf="form.controls['email'].hasError('required')">This field is required.</span>
+        <span *ngIf="form.controls['email'].hasError('email')">Please enter a valid email address.</span>
       </div>
     </div>
     <div class="mb-4">
       <input type="text" class="form-control bg-transparent border-primary text-light"
-             placeholder="Asunto" id="subject-input"
+             placeholder="Subject" id="subject-input"
              formControlName="subject"
              [class.is-invalid]="form.controls['subject'].invalid
              && (form.controls['subject'].touched || form.controls['subject'].dirty)">
 
       <div class="invalid-feedback" *ngIf="form.controls['subject'].invalid
              && (form.controls['subject'].touched || form.controls['subject'].dirty)">
-        <span *ngIf="form.controls['subject'].hasError('required')">Este campo es requerido.</span>
+        <span *ngIf="form.controls['subject'].hasError('required')">This field is required.</span>
       </div>
     </div>
     <div class="mb-3">
       <textarea class="form-control bg-transparent border-primary text-light" id="message"
-                rows="10" placeholder="Mensaje"
+                rows="10" placeholder="Message"
                 formControlName="message"
                 [class.is-invalid]="form.controls['message'].invalid
                 && (form.controls['message'].touched || form.controls['message'].dirty)"></textarea>
 
       <div class="invalid-feedback" *ngIf="form.controls['message'].invalid
              && (form.controls['message'].touched || form.controls['message'].dirty)">
-        <span *ngIf="form.controls['message'].hasError('required')">Este campo es requerido.</span>
+        <span *ngIf="form.controls['message'].hasError('required')">This field is required.</span>
       </div>
     </div>
     <div class="d-flex justify-content-end">
-      <button type="submit" class="btn btn-outline-primary text-light">Enviar</button>
+      <button type="submit" class="btn btn-outline-primary text-light">Send</button>
     </div>
   </form>
 </div>

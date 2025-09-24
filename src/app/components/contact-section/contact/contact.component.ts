@@ -15,6 +15,7 @@ export class ContactComponent {
   }
 
   onCopy() {
-    this.toastService.show("Email copiado!", 'bg-success text-light');
+ this.toastService.show("Email copied!", 'bg-success text-light');
+
   }
 }
